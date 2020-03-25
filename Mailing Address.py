@@ -1,6 +1,6 @@
 first = input("Please enter your first name: ")
 last = input("please enter your last name: ")
-nation = input("please enter your nationality: ")
+nation = input("please enter your destination nation: ")
 state = input("please enter your state/province: ")
 city = input("your city: ")
 street = input("your street: ")
