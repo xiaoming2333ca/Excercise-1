@@ -3,13 +3,12 @@ last = input("please enter your last name: ")
 nation = input("please enter your destination nation: ")
 state = input("please enter your state/province: ")
 city = input("your city: ")
-street = input("your street: ")
-number = input("your number: ")
+address = ("your adress please")
 zip_number = input("zip number please: ")
 
 print(f'''
-{first} {last}
-{number} {street}
-{city} {state} {zip_number}
-{nation}
+{first.upper()} {last.upper()}
+{address.upper()}
+{city.upper()} {state.upper()} {zip_number.upper()}
+{nation.upper()}
 ''')
